@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Risque|Righteous|Bangers|Sarala|Mitr');
+
+
+body{
+}
+
+.glavni{
+	padding-top:70px;
+}
+
+.navbar{
+	background-color:white;
+}
+
+.navbar-light .navbar-brand{
+	font-family: 'Bungee Inline', cursive;
+	color:#4db8ff;
+	font-size:2rem;
+}
+.navbar-light .navbar-nav .nav-link{
+	font-size: 1.50rem;
+	color:#4db8ff;
+	font-family: 'Bangers', cursive;
+}
+.navbar-light .navbar-nav .nav-link.active{
+	color:#4db8ff;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	font-size: 1.50rem;
+	color:white;
+	font-family: 'Bangers', cursive;
+}
+
+.navbar-dark .navbar-brand{
+	font-family: 'Bungee Inline', cursive;
+    color: white;
+	font-size:2rem;
+}
+
+.navbar-dark .navbar-brand:hover{
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,.navbar-dark .navbar-nav .nav-link:hover{
+	/*color:#020A38;*/
+	color:black;
+}
+
+.bg-dark {
+    background-color: #4db8ff !important;
+}
+
+/*--------------------------------POČETNA----------------------------*/
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 250px;
+    right: 250px;
+	font-family: 'Righteous', cursive;
+	color:  #3673b0;
+
+}
+
+
+.carousel-container .carousel-content h2{
+	text-align:center;
+	background-color: #4db8ff;
+	color:white;
+	font-size:2rem;	
+}
+#prvi{
+	background-color:#4db8ff;
+}
+#drugi{
+	background-color:white;
+}
+#treci{
+	background-color:#4db8ff;
+}
+.container{
+	padding-top:60px;
+	padding-bottom:60px;
+}
+
+.container h1{
+	font-family: 'Bangers', cursive;
+	font-size:50px;
+}
+
+.container h3, .container h5{
+	font-family: 'Righteous', cursive;
+}
+.container p,ul{
+	font-family: 'Sarala', sans-serif;
+}
+
+
+/*-----------------------ZLOUPOTREBA DECE------------------------------------*/
+
+
+
+.snaslov{
+	padding-top:30px;
+	background-color:#4db8ff;
+}
+.snaslov h1{
+	font-size:70px;
+}
+
+
+.tabbable-panel {
+  border:1px solid #eee;
+  padding: 10px;
+}
+
+.tabbable-line > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+.tabbable-line > .nav-tabs > li {
+  margin-right: 2px;
+}
+.tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin:10px;
+  color: #737373;
+  text-decoration:none;
+  font-size:150%;
+}
+.tabbable-line > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+
+.tabbable-line > .nav-tabs > li > a.active{
+  border-bottom: 3px solid #f3565d;
+  position: relative;
+}
+
+.tabbable-line > .tab-content {
+  margin-top: -3px;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+   font-size:120%;
+}
+.portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+#tabela .container{
+	padding-top:70px;
+	padding-bottom:0px;
+}
+
+#lista{
+	background-color:white;
+}
+#sajber{
+	background-color:#4db8ff;
+}
+
+.oaerror {
+  width: 100%;
+  margin-top:10px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-left-width: 8px;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.plavo {
+  border-left-color: #4db8ff; 
+  background-color: rgba(77, 184, 255, 0.2);
+}
+
+.plavo strong {
+  color: #4db8ff;
+}
+
+/*-----------------------------------ZAŠTITA DECE NA INTERNETU----------------------------*/
+
+#programi{
+	background-color:white;
+}
+#k9web{
+	background-color:#4db8ff;
+}
+#regulativa{
+	background-color:white;
+}
+#centar{
+	background-color:#4db8ff;
+}
+
+/*-----------------------------------------ANKETA----------------------------------------*/
+
+.form-area{
+    background-color: rgba(77, 184, 255, 0.2);
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 3px solid #4db8ff;
+}
+
+.anketa, .anketa p{
+	font-family: 'Mitr', sans-serif;
+}
+.anketa .container
+{
+	padding-bottom:0px;
+}
+
+/*-----------------------------------ZA MOBILNI-----------------------------------------------*/
+
+
+
+@media (max-width: 1366px) and (orientation: landscape){
+	
+	.navbar-dark .navbar-brand{
+		font-size:1.6rem;
+	}
+	.navbar-light .navbar-brand{
+		font-size:1.6rem;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		font-size:1.1rem;
+	}
+	.navbar-dark .navbar-nav .nav-link{
+		font-size:1.1rem;
+	}
+	.carousel-container .carousel-content h2{
+	font-size:1.5rem;	
+	}
+
+
+@media (max-width: 768px) and (orientation: landscape){
+	.navbar-dark .navbar-brand{
+		font-size:1rem;
+	}
+	.navbar-light .navbar-brand{
+		font-size:1rem;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		font-size:1.1rem;
+	}
+	.navbar-dark .navbar-nav .nav-link{
+		font-size:1.1rem;
+	}
+	.carousel-container .carousel-content h2{
+	font-size:0.9rem;	
+	}
+}
+
+}
+
+
+@media (max-width: 1366px) and (orientation: portrait){
+	
+	.navbar-dark .navbar-brand{
+		font-size:1.6rem;
+	}
+	.navbar-light .navbar-brand{
+		font-size:1.6rem;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		font-size:1.1rem;
+	}
+	.navbar-dark .navbar-nav .nav-link{
+		font-size:1.1rem;
+	}
+	.carousel-container .carousel-content h2{
+	font-size:1.5rem;	
+	}
+	
+		
+@media (max-width: 768px) and (orientation: portrait){
+	.navbar-dark .navbar-brand{
+		font-size:0.7rem;
+	}
+	.navbar-light .navbar-brand{
+		font-size:0.7rem;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		font-size:0.9rem;
+	}
+	.navbar-dark .navbar-nav .nav-link{
+		font-size:0.9rem;
+	}
+	.carousel-container .carousel-content h2{
+	font-size:0.5rem;	
+	}
+}
+}
+	
+/*-----------------------------STATISTIKA-----------------------------------*/
+
+#statprvi, #stattreci,#statpeti{
+	background-color:white;
+}
+#statdrugi,#statcetvrti,#statsesti{
+	background-color:#4db8ff;
+}
+
+
+#statprvi h3,#statpeti h3{
+	text-align:center;
+
+}
+
+#statdrugi h5, #stattreci h5,#statcetvrti h5,#statsesti h5{
+	text-align:center;
+
+}
+
+/*-------------------------------------KONTAKT--------------------------------*/
+
+.h1 small {
+font-size: 24px;
+}
+.form-control
+{
+	width:100%;
+}
+#poruka
+{
+	resize: none;
+}
+#nkontakt
+{
+	font-family: 'Righteous', cursive;
+	padding-bottom:30px;
+}
+
+/*--------------------------------------FOOTER---------------------------------------*/
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: white !important;
+	color:#4db8ff !important;
+	
+}
+#footer .container{
+	padding-top: 30px;	
+	padding-bottom: 30px;
+	
+}
+
+#footer a {
+    color: #4db8ff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:45px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+	color:#4db8ff;
+	padding:0px 35px 0px 35px;
+}
+#footer ul.social li:hover a i {
+	font-size:50px;
+	margin-top:-10px;
+}
+#footer ul.social li a{
+	color:#4db8ff;
+}
+#footer ul.social li a:hover{
+	color:#4db8ff;
+}
+
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+ 
+ 

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/animate.min.css">
+	
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css" type="text/css"> 
+		
+		<link rel="icon" href="img/logo.png"> 
+		
+		<link href="https://fonts.googleapis.com/css?family=Oswald:700|Patua+One|Roboto+Condensed:700" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<title>Kontakt</title>
+		
+	</head>
+
+<body>
+
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">Bezbednost dece na internetu</a>	
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="index.html">Početna <span class="sr-only"></span></a>
+      <a class="nav-item nav-link" href="zloupotreba.html">Zloupotreba dece na Internetu</a>
+      <a class="nav-item nav-link" href="zastita.html">Zaštita dece na Internetu</a>
+      <a class="nav-item nav-link" href="anketa.html">Anketa</a>
+	  <a class="nav-item nav-link" href="statistika.php">Statistika</a>
+	  	  <a class="nav-item nav-link" href="kontakt.html">Kontakt</a>
+    </div>
+  </div>
+</nav>
+
+<div class="glavni">
+
+	<section class="snaslov"> 
+      <div class="container">
+          <h1 class="naslov text-center">Kontakt</h1>
+          <br><br>
+      </div>    
+	</section>
+	
+	<div class="container">
+                <form method="post" action="insert3.php">
+                <div class="row">
+					<div class="col-md-12">
+						<h4 id="nkontakt">Ukoliko smatrate da ste bili, ili da ste trenutno žrtva zlostavljanja putem interneta, možete nam se obratiti za bilo kakvu vrstu pomoći!</h4>
+					</div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label>Ime</label>
+                            <input type="text" class="form-control" name="ime" placeholder="Unesite ime" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <div class="input-group">                                
+                                <input type="email" class="form-control" name="email" placeholder="Unesite email" required="required" /></div>
+                        </div>                       
+                    </div>
+                    <div class="col-md-8">
+                        <div class="form-group">
+                            <label for="poruka">Poruka</label>
+                            <textarea name="poruka" id="poruka" class="form-control" name="poruka" rows="10" required="required" placeholder="Poruka" ></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary " id="posalji">Pošalji</button>
+                    </div>
+                </div>
+                </form>
+</div>
+
+<section id="footer">
+		<div class="container">
+			<div class="row" >
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5" >
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="https://www.facebook.com/bezbednostdecenainternetu/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/BInternetu" target="_blank"><i class="fab fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/bezbednostdecenainternetu/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://plus.google.com/u/2/107964773571755895636" target="_blank"><i class="fab fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+				</hr>
+			</div>	
+		</div>
+	</section>
+
+
+</div>
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/js.js"></script>	
+</body>
+</html>

@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/animate.min.css">
+	
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css" type="text/css"> 
+		
+		<link rel="icon" href="img/logo.png"> 
+		<title>Anketa</title>
+		
+	</head>
+
+<body>
+
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">Bezbednost dece na internetu</a>	
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="index.html">Početna <span class="sr-only"></span></a>
+      <a class="nav-item nav-link" href="zloupotreba.html">Zloupotreba dece na Internetu</a>
+      <a class="nav-item nav-link" href="zastita.html">Zaštita dece na Internetu</a>
+      <a class="nav-item nav-link" href="anketa.html">Anketa</a>
+	  <a class="nav-item nav-link" href="statistika.php">Statistika</a>
+	  	  <a class="nav-item nav-link" href="kontakt.html">Kontakt</a>
+    </div>
+  </div>
+</nav>
+
+<div class="glavni">
+
+	<section class="snaslov"> 
+      <div class="container">
+          <h1 class="naslov text-center">Anketa</h1>
+          <br><br>
+      </div>    
+	</section>
+	
+<section class="anketa">
+<div class="container animated bounceInUp">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="form-area">
+				<form method="post" action="insert.php" class="anketa">
+					<div class="form-group">
+					<p>Pol:</p>
+					  <input type="radio" name="rbPol" value="Muški" required>
+					  <label>Muški</label><br>
+					  
+					  <input type="radio" name="rbPol" value="Ženski">
+					  <label>Ženski</label><br>
+					</div>
+				
+					<div class="form-group">
+					<p>Koliko godina imate?</p>
+					  <input type="radio" name="rbBrGodina" value="manje od 13" required>
+					  <label>manje od 13 </label><br>
+
+					  <input type="radio" name="rbBrGodina" value="13 - 19">
+					  <label>13 - 19</label><br>
+					  
+					  <input type="radio" name="rbBrGodina" value="više od 19">
+					  <label>više od 19</label><br>
+					</div>
+					
+					<div class="form-group">
+					<p>Koliko vremena dnevno provodite za kompjuterom?</p> 
+					  <input type="radio" name="rbVremezak" value="retko koristim kompjuter" required>
+					  <label>retko koristim kompjuter </label><br>
+
+					  <input type="radio" name="rbVremezak" value="najviše 2 sata dnevno">
+					  <label>najviše 2 sata dnevno</label><br>
+					  
+					  <input type="radio" name="rbVremezak" value="najviše 5 sata dnevno"> 
+					  <label>najviše 5 sata dnevno</label><br>
+					  
+					  <input type="radio" name="rbVremezak" value="neprekidno">
+					  <label>neprekidno</label><br>
+					</div>
+					
+					<div class="form-group">
+					<p>Koliko vremena dnevno provodite na internetu?</p>
+					  <input type="radio" name="rbVremenai" value="retko koristim internet" required>
+					  <label>retko koristim internet </label><br>
+
+					  <input type="radio" name="rbVremenai" value="najviše 1 sat dnevno">
+					  <label>najviše 1 sat dnevno</label><br>
+					  
+					  <input type="radio" name="rbVremenai" value="najviše 4 sata dnevno">
+					  <label>najviše 4 sata dnevno</label><br>
+					  
+					  <input type="radio" name="rbVremenai" value="neprekidno">
+					  <label>neprekidno</label><br>
+					</div>
+					
+					<div class="form-group">
+					<p>U koje doba dana najčešće koristite internet?</p>
+						<input type="radio" name="rbDoba" value="nikad" required>
+						<label>nikad</label><br>
+								
+						<input type="radio" name="rbDoba" value="pre podne">
+						<label>pre podne</label><br>
+
+						<input type="radio" name="rbDoba" value="posle podne">
+						<label>posle podne</label><br>
+								 
+						<input type="radio" name="rbDoba" value="uveče">
+						<label>uveče</label><br>
+								  
+						<input type="radio" name="rbDoba" value="neprekidno">
+						<label>neprekidno</label><br>
+					</div>
+					
+					<div class="form-group">
+					<p>Preko kog uređaja najčešće pristupate internetu?</p>
+					  <input type="radio" name="rbUredjaj" value="mobilni telefon" required>
+					  <label>mobilni telefon </label><br>
+
+					  <input type="radio" name="rbUredjaj" value="desktop računar">
+					  <label>desktop računar</label><br>
+					  
+					  <input type="radio" name="rbUredjaj" value="laptop">
+					  <label>laptop</label><br>
+					  
+					  <input type="radio" name="rbUredjaj" value="tablet">
+					  <label>tablet</label><br>
+					</div>
+					
+					<div class="form-group">
+					<p>Ukupan broj uredjaja (PC, laptopova, tableta ,mobilnih telefona) u Vašem domaćinstvu</p>
+					  <input type="text" class="form-control" name="tbBrojUredjaja" required>
+					</div>
+					
+					<div class="form-group">
+					<p>Koliko dugo koristite internet?</p>
+					  <input type="radio" name="rbDugoKoristite" value="manje od godinu dana" required>
+					  <label>manje od godinu dana</label><br>
+
+					  <input type="radio" name="rbDugoKoristite" value="1 do 3 godine">
+					  <label>1 do 3 godine</label><br>
+					  
+					  <input type="radio" name="rbDugoKoristite" value="od 3 do 5 godina">
+					  <label>od 3 do 5 godina</label><br>
+					  
+					  <input type="radio" name="rbDugoKoristite" value="od 5 do 10 godina">
+					  <label>od 5 do 10 godina</label><br>
+					  
+					  <input type="radio" name="rbDugoKoristite" value="preko 10 godina">
+					  <label>preko 10 godina</label><br>
+					</div>					
+					
+					<div class="form-group opcije1">
+					<p>Za šta najviše koristite internet?</p>
+					  <input type="checkbox" name="cekirano_internet[]" value="vesti, informacije" required>
+					  <label>vesti, informacije </label><br>
+
+					  <input type="checkbox" name="cekirano_internet[]" value="video, TV, fotografije" required>
+					  <label>video, TV, fotografije </label><br>
+					  
+					  <input type="checkbox" name="cekirano_internet[]" value="muzika" required>
+					  <label>muzika</label><br>
+					  
+					  <input type="checkbox" name="cekirano_internet[]" value="knjige/edukacija" required>
+					  <label>knjige/edukacija</label><br>
+				
+					  <input type="checkbox" name="cekirano_internet[]" value="socijalne mreže, chat" required> 
+					  <label>socijalne mreže, chat </label><br>
+
+					  <input type="checkbox" name="cekirano_internet[]" value="igrice" required>
+					  <label>igrice</label><br>
+					  
+					  <input type="checkbox" name="cekirano_internet[]" value="shopping" required>
+					  <label>shopping</label><br>
+					  
+					  <input type="checkbox" name="cekirano_internet[]" value="igre na sreću/klađenje" required>
+					  <label>igre na sreću/klađenje</label><br>
+					</div>
+					
+					<div class="form-group opcije2">
+					<p>Koje društvene mreže najviše koristite?</p>
+					  <input type="checkbox" name="cekirano_drustvene[]" value="Facebook" required>
+					  <label>Facebook</label><br>
+
+					  <input type="checkbox" name="cekirano_drustvene[]" value="Twitter" required>
+					  <label>Twitter</label><br>
+					  
+					  <input type="checkbox" name="cekirano_drustvene[]" value="Instagram" required>
+					  <label>Instagram</label><br>
+					  
+					  <input type="checkbox" name="cekirano_drustvene[]" value="Snapchat" required>
+					  <label>Snapchat</label><br>
+				
+					  <input type="checkbox" name="cekirano_drustvene[]" value="Pinterest" required>
+					  <label>Pinterest</label><br>
+
+					  
+					</div>
+					
+					<div class="form-group">
+					<p>Da li možeš da zamisliš svoj život bez društvenih mreža?</p>
+					  <input type="radio" name="rbZivotBez" value="Da" required>
+					  <label>Da</label><br>
+
+					  <input type="radio" name="rbZivotBez" value="Ne">
+					  <label>Ne</label><br>
+					</div>
+					
+					 <button class="btn btn-primary" type="submit" value="Gotovo" data-toggle="tooltip" data-placement="top" title="Popunite sva polja">Gotovo</button>
+					 <br>
+					
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<section id="footer">
+		<div class="container">
+			<div class="row" >
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5" >
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="https://www.facebook.com/bezbednostdecenainternetu/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/BInternetu" target="_blank"><i class="fab fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/bezbednostdecenainternetu/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://plus.google.com/u/2/107964773571755895636" target="_blank"><i class="fab fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+				</hr>
+			</div>	
+		</div>
+	</section>
+	
+
+</div>
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/js.js"></script>	
+</body>
+</html>
