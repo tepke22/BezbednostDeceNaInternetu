@@ -4,7 +4,7 @@ Sajt je napravljen u edukacione svrhe. Web tehnologije koje koristi: HTML5, CSS3
 
 Host za testiranje : http://tepke.000webhostapp.com/
 
-
+__________________________________________________________________________________________________________________________________
 ---------------------------------------------------------------------------------------------------------------------------------
 
 Website is made for educational purposes. Web technologies used: HTML5, CSS3, JavaScript, PHP, MySQL, Bootstrap
